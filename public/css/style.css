@@ -1,0 +1,67 @@
+
+
+#div-1{
+	background: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url('img/foto1.png'); 
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+
+
+/*#div-2{
+	background: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url('img/foto1.png'); 
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+
+#div-3{
+	background: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url('img/foto2.jpg'); 
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	
+}*/
+
+
+#div-imagen img{
+	float:right;
+	margin: 0px 10px;
+	object-fit: cover;
+	box-shadow: 5px 5px 15px silver 
+}
+
+#div-imagen2 img{
+	float:left;
+	margin: 0px 10px;
+	object-fit: cover;
+	box-shadow: 5px 5px 15px silver 
+}
+
+
+
+@media (max-width: 992px) {
+  #div-1{
+  	display: none;
+  }
+}
+
+@media (min-width: 992px) {
+  #div-1{
+  	display: block;
+  }
+}
+
+.col{
+	
+	margin:auto;
+}
+
+.col{
+	min-width: 400px;
+	flex-grow: row;
+}
+
+/*INDEX*/
+
+
